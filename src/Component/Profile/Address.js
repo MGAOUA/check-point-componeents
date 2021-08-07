@@ -6,7 +6,7 @@ function Address({ address }) {
   );
 }
 
-Address.defaultProps={
-  address = "type your adresse"
-}
+Address.defaultProps = {
+  address: "type your adresse",
+};
 export default Address;
