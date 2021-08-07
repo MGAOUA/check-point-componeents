@@ -1,9 +1,9 @@
 import Photo from "./PhotoProfile.jpg";
 
-function ProfilePhoto() {
+function ProfilePhoto(props) {
   return (
     <div>
-      <img src={Photo} />
+      <img src={Photo} onClick={props.func} />
     </div>
   );
 }
