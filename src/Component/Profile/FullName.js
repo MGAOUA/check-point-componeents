@@ -1,9 +1,9 @@
 import React from "react";
-
-export const FullName = () => {
+import "./style.css";
+export const FullName = ({ fullName }) => {
   return (
     <div>
-      <p> Meriem GAOUA</p>
+      <p className="classeProfil">{fullName}</p>
     </div>
   );
 };

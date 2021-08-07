@@ -1,9 +1,12 @@
-function Address() {
+function Address({ address }) {
   return (
     <div>
-      <p> 47SITE Alger</p>
+      <p>{address}</p>
     </div>
   );
 }
 
+Address.defaultProps={
+  address = "type your adresse"
+}
 export default Address;
